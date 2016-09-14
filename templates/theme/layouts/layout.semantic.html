@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="api, api server, api internal, api external, api authentication, api weather, api network, api server, api compute">
+	<meta name="description" content="API Server for internal and external API calls, essentially a consolidation engine.">
+	<meta name="author" content="Ryan Kaiser">
+	<meta name="copyright" content="API Server for Core Services">
+	<meta name="robots" content="none">
+	<meta name="apple-mobile-web-app-title" content="API-SERVER">
+	<meta name="application-name" content="API-SERVER">
+	<title>{% block page_main_title %}TEST SERVER{% endblock page_main_title %}</title>
+	<link rel="stylesheet" href="/{{theme}}/css/semantic.min.css">
+	{% block page_extra_head %}{% endblock page_extra_head %}
+</head>
+<body id="page-top">
+	<!-- block: page_content -->
+	{% block page_content %}{% endblock page_content %}
+	<!-- block: page_content -->
+	<script src="/{{theme}}/js/jquery.3.1.0.min.js"></script>
+	<script async defer src="/{{theme}}/js/semantic.min.js"></script>
+	{% block page_extra_script %}{% endblock page_extra_script %}
+</body>
+</html>

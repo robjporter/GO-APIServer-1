@@ -1,0 +1,66 @@
+{
+	"application": {
+		"debug": true
+	},
+	"iris":{
+		"control":{
+			"username":"irisusername",
+			"password":"irispassword",
+			"port":9090
+		}
+	},
+	"server":{
+		"host": "127.0.0.1",
+		"port": 8080,
+		"name": "iris-roporter",
+		"readtimeout": 5,
+		"writetimeout": 5,
+		"ssh":{
+			"host": "127.0.0.1",
+			"port": 2222
+		}
+	},
+	"redis": {
+		"port": 6380
+	},
+	"notification": {
+		"pushbullet": {
+			"token": "o.wv0Ac180ntmeYC27YDlTA2B6fR53AOUC"
+		}
+	},
+	"logging": {
+			"destination": "file",
+			"live": true
+	},
+	"web":{
+		"theme":{
+			"name":"theme"
+		}
+	},
+	"security":{
+		"blockedip":[
+			"10.10.10.1"
+		],
+		"blockedcountry":[
+			"CN",
+			"RU"
+		]
+	},
+	"middleware":{
+		"jwt":{
+			"key":"MySecretKey"
+		}
+	},
+	"consul":{
+		"host":"127.0.0.1",
+		"port":8500,
+		"active":true,
+		"protocol":"http",
+		"token":"",
+		"tagprefix":"urlprefix-",
+		"namesep":"-",
+		"prefixsep":",",
+		"intervaltimer":"5s",
+		"timeouttimer":"6s"
+	}
+}

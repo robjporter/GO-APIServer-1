@@ -1,0 +1,70 @@
+{% extends "templates/theme/layouts/layout.semantic.html" %}
+
+	{% block page_main_title %}{{page_title}}{% endblock %}
+	{% block page_extra_head %}{{page_head}}
+	<style type="text/css">
+		body > .ui.container {
+			margin-top: 3em;
+		}
+		iframe {
+			border: none;
+			width: calc(100% + 2em);
+			margin: 0em -1em;
+			height: 300px;
+		}
+		iframe html {
+			overflow: hidden;
+		}
+		iframe body {
+			padding: 0em;
+		}
+		.ui.container > h1 {
+			font-size: 3em;
+			text-align: center;
+			font-weight: normal;
+		}
+		.ui.container > h2.dividing.header {
+			font-size: 2em;
+			font-weight: normal;
+			margin: 4em 0em 3em;
+		}
+		.ui.table {
+			table-layout: fixed;
+		}
+	</style>
+	{% endblock %}
+	{% block page_content %}
+
+<div class="ui container">
+
+	<h1>Theming Examples</h1>
+
+	<h2 class="ui dividing header">Site</h2>
+	{% include "templates/theme/blocks/site.html" %}
+
+	<h2 class="ui dividing header">Menu</h2>
+	{% include "templates/theme/blocks/menu.html" %}
+
+	<h2 class="ui dividing header">Buttons</h2>
+	{% include "templates/theme/blocks/button.html" %}
+
+	<h2 class="ui dividing header">Table</h2>
+	{% include "templates/theme/blocks/table.html" %}
+
+	<h2 class="ui dividing header">Input</h2>
+	{% include "templates/theme/blocks/input.html" %}
+
+	<h2 class="ui dividing header">Card</h2>
+	{% include "templates/theme/blocks/card.html" %}
+
+</div>
+
+{% endblock %}
+{% block page_extra_script %}{{page_scripts}}
+<script>
+$('iframe').iFrameResize({
+	autoResize: true,
+	heightCalculationMethod: 'bodyScroll'
+});
+</script>
+{% endblock %}

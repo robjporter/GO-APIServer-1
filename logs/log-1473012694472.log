@@ -1,0 +1,30 @@
+{"host":"127.0.0.1:8080","level":"debug","msg":"Log configuration complete.","server":"iris-roporter-1","time":"2016-09-04T19:11:34+01:00"}
+{"File":"core","Function":"run","Line":"126","host":"127.0.0.1:8080","level":"debug","msg":"Logger initialised successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:34+01:00"}
+{"File":"core","Function":"run","Line":"128","host":"127.0.0.1:8080","level":"debug","msg":"Middleware loaded and initialised successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:34+01:00"}
+{"File":"core","Function":"run","Line":"130","host":"127.0.0.1:8080","level":"debug","msg":"All static routes applied successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:34+01:00"}
+{"File":"core","Function":"run","Line":"132","host":"127.0.0.1:8080","level":"debug","msg":"Site wide favourite icon loaded successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:34+01:00"}
+{"File":"core","Function":"run","Line":"134","host":"127.0.0.1:8080","level":"debug","msg":"Theme and template static routes applied successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:34+01:00"}
+{"File":"core","Function":"run","Line":"136","host":"127.0.0.1:8080","level":"debug","msg":"Temporary static routes applied successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:34+01:00"}
+{"File":"core","Function":"run","Line":"138","host":"127.0.0.1:8080","level":"debug","msg":"Indexed all external plugins successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:34+01:00"}
+{"File":"core","Function":"run","Line":"140","host":"127.0.0.1:8080","level":"debug","msg":"Added global error handlers successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:34+01:00"}
+{"File":"core","Function":"run","Line":"142","host":"127.0.0.1:8080","level":"debug","msg":"Discovered Server public data successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:35+01:00"}
+{"File":"core","Function":"run","Line":"144","host":"127.0.0.1:8080","level":"debug","msg":"Completed setting up template information successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:35+01:00"}
+{"File":"core","Function":"run","Line":"146","host":"127.0.0.1:8080","level":"debug","msg":"Loaded and applied core plugins successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:35+01:00"}
+{"File":"core","Function":"run","Line":"148","host":"127.0.0.1:8080","level":"debug","msg":"Initialised Iris Control Center successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:35+01:00"}
+{"File":"core","Function":"run","Line":"150","host":"127.0.0.1:8080","level":"debug","msg":"Cron jobs initialised successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:35+01:00"}
+{"File":"core","Function":"run","Line":"152","host":"127.0.0.1:8080","level":"debug","msg":"Applied security filters successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:35+01:00"}
+{"File":"core","Function":"run","Line":"154","host":"127.0.0.1:8080","level":"debug","msg":"Applied SSH server configuration successfully","server":"iris-roporter-1","time":"2016-09-04T19:11:35+01:00"}
+{"File":"core","Function":"run","Line":"155","host":"127.0.0.1:8080","level":"debug","msg":"Starting Server....","server":"iris-roporter-1","time":"2016-09-04T19:11:35+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:11:39.980077 - 04/09/2016 | 200 |      176.025µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:11:39+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:11:45.005389 - 04/09/2016 | 200 |       58.056µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:11:45+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:11:50.078828 - 04/09/2016 | 200 |       48.565µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:11:50+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:11:55.152289 - 04/09/2016 | 200 |       53.471µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:11:55+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:12:00.173477 - 04/09/2016 | 200 |       64.768µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:12:00+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:12:05.176675 - 04/09/2016 | 200 |       56.325µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:12:05+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:12:10.251990 - 04/09/2016 | 200 |       55.066µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:12:10+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:12:15.318283 - 04/09/2016 | 200 |          54µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:12:15+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:12:20.374075 - 04/09/2016 | 200 |       52.519µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:12:20+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:12:25.378459 - 04/09/2016 | 200 |       54.503µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:12:25+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:12:30.453406 - 04/09/2016 | 200 |       62.326µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:12:30+01:00"}
+{"host":"127.0.0.1:8080","level":"debug","msg":"19:12:35.530227 - 04/09/2016 | 200 |       52.287µs  |       127.0.0.1 | /health | GET","server":"iris-roporter-1","time":"2016-09-04T19:12:35+01:00"}
+{"File":"core","Function":"run","Line":"142","host":"127.0.0.1:8080","level":"info","msg":"Run complete","server":"iris-roporter-1","time":"2016-09-04T19:12:36+01:00"}
